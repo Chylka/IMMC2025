@@ -22,7 +22,7 @@
 
 - **Model probabilistyczny:** analizowaliśmy, z jakim prawdopodobieństwem liga wyłoni rzeczywiście najlepszą drużynę. W kodzie wykorzystujemy m.in. wartości oczekiwane, wariancje i rozkład normalny z `scipy.stats`.
 
-- **Balanced K-Means dla 24 drużyn:** dla rozszerzonej ligi zastosowaliśmy dynamiczne klastrowanie drużyn. Model łączy geografię i siłę sportową, żeby mecze były jednocześnie logistycznie sensowne i sportowo interesujące.
+- **Balanced K-Means (Machine Learning) dla 24 drużyn:** dla rozszerzonej ligi zastosowaliśmy dynamiczne klastrowanie drużyn. Model łączy geografię i siłę sportową, żeby mecze były jednocześnie logistycznie sensowne i sportowo interesujące.
 
 - **Dynamiczne re-clustering:** po kolejnych rundach drużyny są grupowane ponownie na podstawie wyników, co utrzymuje wysoki poziom rywalizacji i pozwala skalować ligę bez niszczenia kalendarza.
 
